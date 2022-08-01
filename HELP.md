@@ -32,3 +32,4 @@ The following guides illustrate how to use some features concretely:
 * [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/)
 * [Service Registration and Discovery with Eureka and Spring Cloud](https://spring.io/guides/gs/service-registration-and-discovery/)
 
+* [new pull req]
