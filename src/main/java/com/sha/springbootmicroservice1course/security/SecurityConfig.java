@@ -22,8 +22,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         PasswordEncoder encoder = new BCryptPasswordEncoder();
         auth.inMemoryAuthentication()
                 .passwordEncoder(encoder)
-                .withUser("user")
-                .password(encoder.encode("password"))
+                .withUser(SECURE_KEY_USERNAME)
+                .password(encoder.encode(SECURE_KEY_PASSWORD))
                 .roles("USER");
     }
 
